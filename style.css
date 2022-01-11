@@ -7,7 +7,7 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 0.938rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ body {
 .name {
     color :hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-transform: uppercase;
     padding-block: 2rem;
     margin: 0;

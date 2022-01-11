@@ -41,39 +41,85 @@ button {
     padding-inline: 2rem;
     padding-block: 1rem;
     border-radius: 100px;
+    }
+
+
+
+.Sedans > button:hover {
+    background-color:  hsl(31, 77%, 52%);
+    border-color: white;
+    color: white;
     cursor: pointer;
 }
 
-button:hover,
-button:focus {
-    
-    opacity: .7;
+.Sedans > button:focus {
+    background-color:  hsl(31, 77%, 52%);
+    border-color: white;
+    color: white;
 }
+
+
 
 .Sedans > .btn {
     color: hsl(31, 77%, 52%);
+    border-style: solid;
+    border-color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-size: medium;
 }
+
+
 
 .SUVs > .btn {
     color: hsl(184, 100%, 22%);
+    border-style: solid;
+    border-color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-size: medium;
 }
 
+.SUVs > button:hover {
+    background-color:  hsl(184, 100%, 22%);
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.SUVs > button:focus {
+    background-color:  hsl(184, 100%, 22%);
+    border-color: white;
+    color: white;
+}
+
+
+
 .Luxury > .btn {
     color: hsl(179, 100%, 13%);
+    border-style: solid;
+    border-color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-size: medium;
 }
+
+.Luxury > button:hover {
+    background-color:  hsl(179, 100%, 13%);
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.Luxury > button:focus {
+    background-color:  hsl(179, 100%, 13%);
+    border-color: white;
+    color: white;
+}
+
 
 .Sedans {
     background-color: hsl(31, 77%, 52%);
     padding: 3.5rem;
     border-radius: 10px 0 0 10px;
 }
-
 
 
 .SUVs {

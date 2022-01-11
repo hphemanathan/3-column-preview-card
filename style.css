@@ -2,22 +2,26 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
 }
 
+
+
 .container {
-    width: 1000px;
-    max-width: 90%;
-    margin-inline: auto;
-    margin-top: 10rem;
-    display: flex;
     
-   
+    max-width: 60rem;
+    display: flex;
+    margin-inline: 2rem;
+       
 }
 
 
@@ -26,13 +30,18 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 50px;
     text-transform: uppercase;
+    padding-block: 2rem;
+    margin: 0;
 }
 
 .info {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     line-height: 2rem;
+    padding: 0;
     padding-bottom: 4rem;
+    margin: 0;
+    
 }
 
 button {
@@ -56,6 +65,7 @@ button {
     background-color:  hsl(31, 77%, 52%);
     border-color: white;
     color: white;
+    outline: none;
 }
 
 
@@ -89,6 +99,7 @@ button {
     background-color:  hsl(184, 100%, 22%);
     border-color: white;
     color: white;
+    outline: none;
 }
 
 
@@ -112,6 +123,7 @@ button {
     background-color:  hsl(179, 100%, 13%);
     border-color: white;
     color: white;
+    outline: none;
 }
 
 
@@ -138,9 +150,17 @@ button {
     .container {
         display: flex;
         flex-direction: column;
-        margin-top: 3rem;
+        margin-block: 2rem;
+
+
+        max-width: 25rem;
+        margin-inline: 1rem;
     }
 
+    .name {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     .info {
 
         line-height: 1.5rem;
@@ -149,6 +169,7 @@ button {
 
     .Sedans {
         border-radius: 8px 8px 0 0;
+        
     }
 
     .Luxury {
